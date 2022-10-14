@@ -1,0 +1,759 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.pd{
+    padding: 60px 0; 
+}
+.container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: auto;
+}
+.list-unstyled{
+    list-style: none;
+}
+.navbar {
+    flex: 2;
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a{
+    color:#000;
+    font-size: 14px;
+}
+.number-phone i{
+    color: #5EB6E1;
+    font-size: 20px;
+}
+.home-content{
+    background-image: url(../img/girl-resting-after-exercises-gym_152625-820_auto_x2_auto_x2.png);
+    width: 100%;
+    height: 95vh;
+    background-position:center 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1 #000 solid;
+
+}
+.home-item{
+    position:relative;
+}
+.home-description {
+    width: 50%;
+    position: absolute;
+    top: 260px;
+    left: 250px;
+
+}
+.home-description span{
+    color: #ffffff;
+}
+.home-description h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+
+}
+.home-description .btn-1{
+    background: #5EB6E1;
+    padding: 10px 30px;
+    color: #000;
+    border-radius: 5px;
+}
+.social-media{
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+}
+.social-media i{
+    display: block;
+    background: gainsboro;
+    padding: 20px 10px;
+    border-bottom: #5EB6E1 solid 1px;
+}
+.home-imgs-items{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-gap: 10px;
+
+    
+    
+}
+
+.home-img-item {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    margin:200px 0 ;
+    padding: 0 10px;
+    
+
+    
+}
+#img1{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)) ,url(../img/young-muscular-caucasian-woman-practicing-gym-with-equipment-wellness-healthy-lifestyle-bodybuilding_155003-14840.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#img2{
+    background-image: linear-gradient( rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 0.01)),url(../img/Group\ 136.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#img3{
+    background-image: linear-gradient( rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 0.01)),url(../img/Group\ 137.png) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-img-item .tittle-home{
+    margin-top:70px ;
+    color: #fff;
+    font-weight: 200;
+    font-size: 23px;
+
+}
+.home-img-item .subtittle-home{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0 20px 0;
+}
+.home-img-item .btn-home{
+    padding: 3px 25px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+}
+.home-img-item .type1{
+    background: #FF6C2C;
+}
+.home-img-item .type2{
+    background: #945B9F;
+}
+.home-img-item .type3{
+    background: #5EB6E1;
+}
+.offres{
+    margin: 120px 0;
+}
+.offre-description{
+    margin: 460px 0;
+    
+}
+.offre-content{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 100%;
+    text-align: left;
+    
+}
+.offre-item{
+    margin-right: 20px;
+    padding-left: 50px ;
+
+}
+.offre-item2{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+.offre-item2 .img-desc1 img{
+    width: 230px;
+    
+
+    
+}
+.offre-item2 .img-desc1{
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+.double-img{
+    position: absolute;
+    top: -120px;
+    right: 80px;
+}
+.double-img img {
+    width: 230px;
+    margin: 10px 0;
+}
+.offre-item h5{
+    color: #FF6C2C;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 4px;
+}
+.offre-item h1{
+    font-size: 35px;
+    font-weight: 100;
+    color: #292F39;
+}
+.offre-item .line{
+    width: 90px;
+    background: #5EB6E1;
+    height: 2px;
+    display: block;
+    margin-bottom: 30px;
+
+}
+.offre-item .top-paragh{
+    color: #FF6C2C;
+    margin-bottom: 30px;
+    font-size:15px ;
+    width: 80%;
+}
+.offre-item .bottom-paragh{
+    color:#9E9E9E ;
+    font-size: 14px;
+    line-height: 1.9;
+    width: 80%;
+    margin-bottom: 50px;
+
+}
+.offre-item .btn-desc{
+    background: #5EB6E1;
+    color: #000;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+/* section classes */
+
+.back-tittle{
+    background: #222224;
+    height: 40vh;
+    padding: 50px 0;
+}
+.tittle{
+    text-align: center;
+}
+.tittle h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 10px 0;
+}
+.tittle .line-2{
+    background: #5EB6E1;
+    height: 2px;
+    width: 80px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.paragraph{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+}
+.paragraph p{
+    color: #fff;
+    word-spacing: 1.5;
+    line-height: 1.9;
+}
+.classes-content{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    
+}
+#classe-img1{
+    background-image: url(../img/fit-young-woman-lifting-barbells-looking-focused-working-out-gym_155003-5353.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#classe-img2{
+    background-image: url(../img/woman-doing-exercise-gym_116124-203.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#classe-img3{
+    background-image: url(../img/fitness-days-gorgeous-blonde-woman-gym-her-weekend-time_146671-17084.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#classe-img4{
+    background-image: url(../img/woman-exercising-with-dumbbell-muscle-gym_116317-294.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#classe-img5{
+    background-image: url(../img/senior-woman-doing-abs-yoga-mat_23-2148282954.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#classe-img6{
+    background-image: url(../img/keep-holding-gorgeous-blonde-woman-gym-her-weekend-time_146671-16987.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.classes-item{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    
+}
+.classes-item .class-tittle{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.classes-item .class-tittle h1{
+    font-weight: 200;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.classes-item .class-tittle-d{
+    background: #00A2FF;
+    opacity: 0.8;
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+}
+.class-tittle-d h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    margin: 40px 0 5px 0;
+}
+.class-tittle-d .line-3{
+    width: 80px;
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.class-tittle-d p{
+    color: #fff;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.class-tittle-d .btn-classe{
+    background: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+
+}
+.class-tittle-d a{
+    color: #000;
+    font-size: 12px;
+
+}
+.tittle .black-f{
+    color: #000;
+}
+.tittle .black p {
+    color: #000;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.team-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:70px ;
+    grid-gap: 20px;
+    
+    
+    
+}
+.team{
+    margin-bottom: 100px;
+    height: 100vh;
+}
+.team-item{
+    width: 100%;
+    
+    margin: 5px 10px;
+    height: 395px;
+    text-align: center;
+    box-shadow: -6px -6px 4px -2px rgba(226, 226, 226, 0.4),
+    6px 6px 4px -2px rgba(226, 226, 226, 0.4);
+    margin-bottom: 20px;
+    
+
+}
+.team-item img{
+    width: 100%;
+    height:280px;
+}
+.team-item h1{
+    font-size: 25px;
+    font-weight: normal;
+    margin: 15px 0 0 0;
+}
+.team-item h5{
+    font-size: 15px;
+    font-weight: 100;
+    color: #292F39;
+    padding: 5px 0;
+}
+.team-item .social-iconx i{
+    margin: 0 2px;
+    font-size: 13px;
+    
+}
+.team-item .social-iconx  .fa-facebook-f{
+    color: #0739FF;
+}
+.team-item .social-iconx  .fa-twitter{
+    color: #00A2FF;
+}
+.team-item .social-iconx  .fa-instagram{
+    color: #F933DF;
+}
+.team-btn{
+    background: #5EB6E1;
+    padding: 15px 50px;
+    text-align: center;
+    margin: auto;
+    grid-column: 1/5;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.team-btn a{
+    color: #000;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
+/* Section testimonials */
+.back-tittle2{
+    background: #181A1F;
+    height: 60vh;
+    padding-top: 50px;
+}
+
+.testimonial-desc{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.testimonial-desc p{
+    color: #fff;
+    margin-top: 250px;
+}
+.our-client{
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.our-client img{
+    width: 70px;
+    height: 70px;
+}
+.our-client h1{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #fff;
+}
+.our-client h6{
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+.our-client .circle{
+    width: 5px;
+    height: 5px;
+    background: #00A2FF;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 50%;
+
+}
+/* section news */
+.news{
+    width: 100%;
+    height: 100vh;
+}
+.news-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    justify-content: center;
+    margin: auto;
+    
+
+}
+.news-content .news-item{
+    background: #13191A;
+    padding: 20px 25px;
+    margin:20px 0 70px 0;
+    max-width: 330px;
+    overflow: hidden;
+    
+}
+.news-item img{
+    width: 100%;
+}
+.news-item h3{
+    color: #5EB6E1;
+    font-weight: 200;
+    margin: 20px 0;
+}
+.news-item .pragh-news{
+    color: #bbbbbb;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+.news-item span{
+    color: #bbb;
+    font-size: 12px;
+    margin-right: 10px;
+}
+#icon-news{
+    color: #00A2FF;
+    margin-right: 5px;
+    
+}
+/* section contact */
+.contact-us{
+    background: #181A1F;
+    width: 100%;
+    height: 90vh;
+    margin-top: 120px;
+    border: 1px solid #181A1F;
+}
+.contact-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+}
+.contact-item{
+    width: 50%;
+    margin: 90px 250px;
+    padding: 20px 15px;
+}
+.contact-item h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 150;
+
+}
+.contact-item .line-3{
+    display: block;
+    background: #00A2FF;
+    width: 80px;
+    height: 2px;
+    margin: 15px 0 50px 0;
+}
+.contact-form input, textarea{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 8px 10px;
+    background: transparent;
+    outline: none;
+    border: #5EB6E1 1px solid;
+}
+[placeholder]{ 
+    color: #fff;
+}
+
+.contact-form a{
+    display: block;
+    background: #5EB6E1;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #000;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.footer-form span{
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    margin: 10px 0;
+
+}
+.footer-form .fotter-span{
+    border-right: 2px #fff solid;
+    padding-right:5px ;
+    margin-right: 5px;
+}
+.social-form i{
+    color: #5EB6E1;
+    margin-right: 20px;
+}
+.contact-form2{
+    width: 100%;
+    position: relative;
+}
+.contact-item2 img{
+    width: 34%;
+    position: absolute;
+    right: 100px;
+    top: 5px;
+}
+/* footer */
+footer{
+    background: #19191C;
+    width: 100%;
+    height: 70vh;
+    
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: auto;
+    padding: 70px 0;
+    width: 100%;
+    
+    
+}
+.logo-footer{
+    position: relative;
+    height: 150px;
+}
+.logo-footer img{
+    position: absolute;
+    bottom: -50px;
+    left: -20px;
+}
+.list-footer1{
+    margin-right:80px;
+}
+.list-footer1 h1{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+.list-footer1 li {
+    margin: 5px 0;
+    color: #BCBCBC;
+}
+
+.list-footer1 li p{
+    color: #BCBCBC;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.back1{
+    text-align: left;
+}
+.back1 i{
+    background: #5EB6E1;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.list-footer2 h1{
+    color:#fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+.list-footer2{
+    width: 90%;
+}
+.list-footer2 li{
+    display: inline-block;
+    margin: 5px 5px;
+    border: 1px solid #BCBCBC;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 100;
+    color: #BCBCBC;
+    
+}
+.list-footer2 .li-active{
+    color: #fff;
+    background: #5EB6E1;
+    border: none;
+}
+.footer-nav{
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background: #5EB6E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.footer-nav li a{
+    color: #000;
+    font-size: 14px;
+}
+.copyright{
+    background: #24272E;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright span{
+    color: #F6F7FB;
+    font-size: 13px;
+}
